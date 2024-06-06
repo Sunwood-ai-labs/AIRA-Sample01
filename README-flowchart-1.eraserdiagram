@@ -1,0 +1,38 @@
+flowchart-diagram
+
+// AIRA Sample01 リポジトリ
+AIRA Sample01 [icon: folder, color: blue] {
+  // メインプログラム
+  main.py [icon: file-code, color: green] 
+  // 機能別モジュール
+  calculator.py [icon: file-code, color: green]
+  string_utils.py [icon: file-code, color: green]
+  list_operations.py [icon: file-code, color: green]
+}
+
+// 機能間の関係
+main.py > calculator.py: 利用
+main.py > string_utils.py: 利用
+main.py > list_operations.py: 利用
+
+// 使用技術
+Python 3 [icon: python, color: orange]
+
+// 学習内容
+Pythonの基本的な構文 [icon: book, color: purple] {
+  変数、データ型、演算子 [icon: data-transfer-out, color: purple] 
+  制御文 [icon: flowchart, color: purple] {
+    if文 [icon: code, color: purple]
+    for文 [icon: code, color: purple]
+  }
+  関数の定義と利用 [icon: function, color: purple]
+  モジュールのインポート [icon: import, color: purple]
+}
+
+// 今後の展望
+より複雑な計算機能の追加 [icon: calculator, color: blue]
+ファイルの読み書き機能の追加 [icon: file-download, color: blue]
+ユーザーインターフェースの改善 [icon: layout, color: blue]
+
+// 謝辞
+貢献者に感謝 [icon: heart, color: red]
