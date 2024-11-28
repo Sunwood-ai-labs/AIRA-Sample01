@@ -1,99 +1,111 @@
-<p align="center">
-<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/AIRA_SAMPLE2.png" width="100%">
-<br>
-<h1 align="center">AIRA Sample01</h1>
-<h2 align="center">
-  ～AI-Integrated Repository for Accelerated Development～
-<br>
-  <img alt="PyPI - Version" src="https://img.shields.io/pypi/v/AIRA">
-<img alt="PyPI - Format" src="https://img.shields.io/pypi/format/AIRA">
-<img alt="PyPI - Implementation" src="https://img.shields.io/pypi/implementation/AIRA">
-<img alt="PyPI - Status" src="https://img.shields.io/pypi/status/AIRA">
-<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/AIRA">
-<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dw/AIRA">
-<a href="https://github.com/Sunwood-ai-labs/AIRA-Sample01" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=AIRA-Sample01&message=Sunwood-ai-labs&color=blue&logo=github"></a>
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Sunwood-ai-labs/AIRA-Sample01">
-<a href="https://github.com/Sunwood-ai-labs/AIRA-Sample01"><img alt="forks - Sunwood-ai-labs" src="https://img.shields.io/github/forks/AIRA-Sample01/Sunwood-ai-labs?style=social"></a>
-<a href="https://github.com/Sunwood-ai-labs/AIRA-Sample01"><img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Sunwood-ai-labs/AIRA-Sample01"></a>
-<a href="https://github.com/Sunwood-ai-labs/AIRA-Sample01"><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/AIRA-Sample01"></a>
-<img alt="GitHub Release" src="https://img.shields.io/github/v/release/Sunwood-ai-labs/AIRA-Sample01?color=red">
-<img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/Sunwood-ai-labs/AIRA-Sample01?sort=semver&color=orange">
-<img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Sunwood-ai-labs/AIRA-Sample01/publish-to-pypi.yml">
-<br>
-<p align="center">
-  <a href="https://hamaruki.com/"><b>[🌐 Website]</b></a> •
-  <a href="https://github.com/Sunwood-ai-labs"><b>[🐱 GitHub]</b></a>
-  <a href="https://x.com/hAru_mAki_ch"><b>[🐦 Twitter]</b></a> •
-  <a href="https://hamaruki.com/"><b>[🍀 Official Blog]</b></a>
-</p>
+# AIRA-Sample01
 
-</h2>
+AIRA (AI Ready Architecture) のサンプルコードリポジトリです。
+AIアプリケーション開発のためのベースとなる設計や実装例を提供します。
 
-</p>
+## 🎯 概要
 
->[!IMPORTANT]
->このリポジトリのリリースノートやREADME、コミットメッセージの9割近くは[claude.ai](https://claude.ai/)や[ChatGPT4](https://chatgpt.com/)を活用した[AIRA](https://github.com/Sunwood-ai-labs/AIRA), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), [Gaiah](https://github.com/Sunwood-ai-labs/Gaiah), [HarmonAI_II](https://github.com/Sunwood-ai-labs/HarmonAI_II)で生成しています。
+このプロジェクトは、AIRAのアーキテクチャに基づいた実装サンプルを提供します。
+モジュール化された設計により、拡張性と保守性の高いAIアプリケーションの開発が可能です。
 
-## 🌟 はじめに
-
-このリポジトリは、**AIRA** の学習用サンプルリポジトリ **Sample01** です。シンプルな計算や文字の表示機能を通して、基本的なプログラミングの概念を学ぶことを目的としています。
-
-## 🎥 デモ
-
-※ デモ動画やGIFがあれば、ここに挿入してください。
-
-## 🚀 はじめよう
-
-1. リポジトリをクローンします。
-2. `main.py` を実行します。
-3. 画面の指示に従って操作を行います。
-
-## 📝 更新情報
-
-※ リポジトリの更新情報があれば、ここに記載してください。
-
-## 🤝 コントリビューション
-
-このリポジトリは学習用サンプルとして作成されています。より良い学習教材にするために、皆様からのフィードバックや貢献を歓迎します。
-
-## 📄 ライセンス
-
-※ ライセンスがあれば、ここに記載してください。
-
-## 🙏 謝辞
-
-※ 謝辞を伝えたい相手があれば、ここに記載してください。
-
-## 機能
-
-* **四則演算:** 2つの数値を入力し、加算、減算、乗算、除算の結果を表示します。
-* **文字列の出力:** 入力された文字列を装飾して出力します。例えば、文字列を大文字に変換したり、特定の記号で囲んだりします。
-* **リスト操作:**  リスト内の要素の最大値、最小値、合計値などを計算します。
-
-## 使用技術
-
-* Python 3
-
-## ファイル構成
+## 📂 ディレクトリ構造
 
 ```
-├── calculator.py  # 四則演算を行う関数
-├── string_utils.py # 文字列操作を行う関数
-└── list_operations.py # リスト操作を行う関数
-└── main.py # 各機能を実行するメインプログラム
+AIRA-Sample01/
+├── modules/          # 機能別モジュール
+│   ├── string_utils.py  # 文字列処理ユーティリティ
+│   └── math_utils.py    # 数値計算ユーティリティ
+└── README.md         # このファイル
 ```
 
-## 学習内容
+## 🎁 提供する機能
 
-* Pythonの基本的な構文
-* 変数、データ型、演算子
-* 制御文（if文、for文など）
-* 関数の定義と利用
-* モジュールのインポート
+### 📝 文字列処理モジュール (string_utils.py)
 
-## 今後の展望
+文字列操作のための基本的な機能を提供します：
 
-* より複雑な計算機能の追加
-* ファイルの読み書き機能の追加
-* ユーザーインターフェースの改善
+- `reverse_string()`: 文字列を反転
+- `count_words()`: 単語数をカウント
+- `is_palindrome()`: 回文判定
 
+```python
+from modules.string_utils import reverse_string, is_palindrome
+
+# 文字列の反転
+text = "Hello, World!"
+print(reverse_string(text))  # "!dlroW ,olleH"
+
+# 回文チェック
+palindrome = "A man a plan a canal Panama"
+print(is_palindrome(palindrome))  # True
+```
+
+### 🔢 数値計算モジュール (math_utils.py)
+
+数値データの分析と計算機能を提供します：
+
+- `calculate_statistics()`: 基本統計量の計算
+- `is_prime()`: 素数判定
+
+```python
+from modules.math_utils import calculate_statistics, is_prime
+
+# 統計計算
+numbers = [1, 2, 3, 4, 5]
+stats = calculate_statistics(numbers)
+print(stats)  # {"mean": 3.0, "median": 3, "min": 1, "max": 5}
+
+# 素数判定
+print(is_prime(17))  # True
+```
+
+## 💻 動作環境
+
+- Python 3.8以上
+- 追加のライブラリは必要ありません（標準ライブラリのみ使用）
+
+## 🚀 使い方
+
+1. リポジトリのクローン
+```bash
+git clone [リポジトリURL]
+cd AIRA-Sample01
+```
+
+2. モジュールの使用
+```python
+from modules.string_utils import reverse_string
+from modules.math_utils import calculate_statistics
+
+# サンプルコード
+text = "AIRA Sample"
+print(reverse_string(text))
+
+data = [10, 20, 30, 40, 50]
+print(calculate_statistics(data))
+```
+
+## ⭐ 今後の予定
+
+- 新しい文字列処理機能の追加
+- データ検証機能の実装
+- パフォーマンス最適化
+
+## 👥 コントリビューション
+
+プロジェクトへの貢献を歓迎します：
+
+1. このリポジトリをフォーク
+2. 機能ブランチの作成 (`git checkout -b feature/amazing-feature`)
+3. 変更をコミット (`git commit -m 'Add amazing feature'`)
+4. ブランチをプッシュ (`git push origin feature/amazing-feature`)
+5. Pull Requestを作成
+
+## 📝 ライセンス
+
+本プロジェクトはMITライセンスで提供されています。詳細は[LICENSE](LICENSE)ファイルを参照してください。
+
+## 📫 連絡先・コミュニティ
+
+- 質問・バグ報告: GitHubのIssueをご利用ください
+- ディスカッション: GitHubのDiscussionsをご利用ください
